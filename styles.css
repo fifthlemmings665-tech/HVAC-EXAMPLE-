@@ -75,4 +75,40 @@ form {
 
 input, textarea {
   padding: 10px;
+} 
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.btn {
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background: #0056d2;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+.grid {
+  flex-wrap: wrap;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+h1, h2 {
+  font-weight: 700;
 }
